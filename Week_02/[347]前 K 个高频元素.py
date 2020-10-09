@@ -31,25 +31,22 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         # 哈希表 o(nlogn)
-        hash_map = {}
-        for i in nums:
-            hash_map[i] = hash_map.get(i, 0) + 1
-        res = sorted(hash_map.keys(), key=lambda x: hash_map[x], reverse=True)
-        return res[:k]
+        # hash_map = {}
+        # for i in nums:
+        #     hash_map[i] = hash_map.get(i, 0) + 1
+        # res = sorted(hash_map.keys(), key=lambda x: hash_map[x], reverse=True)
+        # return res[:k]
 
+        # 堆
+        dic = collections.Counter(nums)
+        # return [x for x,freq in dic.most_common(k)]
 
-
-    # 使用计数器之后构建最小堆
-    # 堆的元素可以是元组类型
-    # 因为求前 K 个高频元素，python 默认最小堆，则将频次取负再入堆
-    # def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-    #     dic = collections.Counter(nums)
-    #     heap, ans = [], []
-    #     for i in dic:
-    #         heapq.heappush(heap, (-dic[i], i))
-    #     for _ in range(k):
-    #         ans.append(heapq.heappop(heap)[1])
-    #     return ans
+        ans, heap = [], []
+        for i in dic:
+            heapq.heappush(heap, (-dic[i], i))
+        for _ in range(k):
+            ans.append(heapq.heappop(heap)[1])
+        return ans
 
 
 
