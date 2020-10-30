@@ -1,5 +1,5 @@
 学习笔记
-1、BFS:
+1、BFS:\n
 def BFS(graph, start, end):
     visited = set()
 	queue = [] 
@@ -15,6 +15,7 @@ def BFS(graph, start, end):
 		
 	# other processing work 
 	...
+	
 2、DFS
 # 非递归
 def DFS(self, tree): 
