@@ -1,5 +1,5 @@
-学习笔记
-1、BFS:\n
+学习笔记 <br>
+1、BFS:
 def BFS(graph, start, end):
     visited = set()
 	queue = [] 
