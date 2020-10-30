@@ -40,8 +40,9 @@ def DFS(self, tree):
 visited = set() 
 
 def dfs(node, visited):
-    if node in visited: # terminator
-    	# already visited 
+
+    if node in visited: # terminator<br>
+    	# already visited
     	return 
 
 	visited.add(node) 
