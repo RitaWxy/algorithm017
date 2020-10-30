@@ -41,7 +41,7 @@ visited = set()
 
 def dfs(node, visited):
 
-    if node in visited: # terminator<br>
+    if node in visited: # terminator
     	# already visited
     	return 
 
