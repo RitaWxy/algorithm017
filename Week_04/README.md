@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 学习笔记 
 1、BFS:
+=======
+学习笔记 <br>
+1、BFS:<br>
+>>>>>>> 3c684b4150a9e471e22a9a7207b1374f3e94a777
 def BFS(graph, start, end):
+
     visited = set()
 	queue = [] 
 	queue.append([start]) 
@@ -15,6 +21,7 @@ def BFS(graph, start, end):
 		
 	# other processing work 
 	...
+	
 2、DFS
 # 非递归
 def DFS(self, tree): 
@@ -38,8 +45,9 @@ def DFS(self, tree):
 visited = set() 
 
 def dfs(node, visited):
+
     if node in visited: # terminator
-    	# already visited 
+    	# already visited
     	return 
 
 	visited.add(node) 
