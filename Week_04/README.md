@@ -1,5 +1,6 @@
-学习笔记 <br>
-1、BFS:<br>
+# 学习笔记 <br>
++ BFS
+(''')
 def BFS(graph, start, end):
 
     visited = set()
@@ -16,9 +17,11 @@ def BFS(graph, start, end):
 		
 	# other processing work 
 	...
+(''')
 	
-2、DFS
-# 非递归
++ DFS
+   非递归
+(''')
 def DFS(self, tree): 
 
 	if tree.root is None: 
@@ -36,7 +39,10 @@ def DFS(self, tree):
 
 	# other processing work 
 	...
-# 递归
+(''')
+
+   递归
+(''')
 visited = set() 
 
 def dfs(node, visited):
@@ -52,18 +58,21 @@ def dfs(node, visited):
 	for next_node in node.children(): 
 		if next_node not in visited: 
 			dfs(next_node, visited)
+(''')
 			
-3、二分查找<br>
++ 二分查找
 前提：目标函数单调性（有序），存在上下界，能够通过索引访问<br>
-left,right = 0,len(array)-1<br>
-while left <= right:<br>
-    mid = (left+right)/2<br>
-    if mid == target:<br>
-        # find target<br>
-        break or return<br>
-    elif array[mid] < target:<br>
+(''')
+left,right = 0,len(array)-1
+while left <= right:
+    mid = (left+right)/2
+    if mid == target:
+        # find target
+        break or return
+    elif array[mid] < target:
         left = mid+1<br>
-    else: right = mid -1<br>
+    else: right = mid -1
+(''')
 
 
 	
