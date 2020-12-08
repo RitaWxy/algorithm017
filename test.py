@@ -1,23 +1,13 @@
-from bitarray import bitarray
-import mmh3
-
-class BloomFilter:
-     def __init__(self,size,hash_num):
-        self.size = size
-        self.hash_num = hash_num
-        self.bit_array = bitarray(size)
-        self.bit_array.setall(0)
-     def add(self,s):
-        for seed in range(self.hash_num):
-           result = mmh3.hash(s,seed) % self.size
-           self.bit_array[result] = 1
-     def lookup(self,s):
-        for seed in range(self.hash_num):
-           if self.bit_array[mmh3.hash(s,seed)%self.size] == 0:
-               return 'Nope'
-        return 'Probably'
-
-bf = BloomFilter(500000,7)
-bf.add('asdf')
-print(bf.lookup('asdf'))
-print(bf.lookup('qwer'))
+from collections import Counter,OrderedDict
+d = OrderedDict(zip(['a','b','c','d'],[1,2,3,4]))
+print(d)
+d.popitem(last=False)
+print(d)
+d['a']=1
+print(d)
+d.move_to_end('c')
+print(d)
+print(d['c'])
+print('d' in d,'e' in d)
+d.pop('d')
+print(d)
