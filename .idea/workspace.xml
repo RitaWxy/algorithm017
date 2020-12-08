@@ -22,7 +22,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="PyDebuggerOptionsProvider">
     <option name="myPyQtBackend" value="PyQt4" />
@@ -39,7 +39,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="[191]位1的个数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm017" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/var/folders/z2/hqvr08_s3f9fz0j1rbdf1drh0000gn/T/leetcode/editor/cn" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="/var/folders/z2/hqvr08_s3f9fz0j1rbdf1drh0000gn/T/leetcode/editor/cn/[191]位1的个数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm017" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +87,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.[191]位1的个数" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +109,8 @@
       <workItem from="1604720541246" duration="2099000" />
       <workItem from="1604842466740" duration="6820000" />
       <workItem from="1604884929790" duration="35160000" />
-      <workItem from="1605076555720" duration="1159000" />
+      <workItem from="1605076555720" duration="1162000" />
+      <workItem from="1607391010848" duration="9415000" />
     </task>
     <servers />
   </component>
@@ -106,18 +130,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithm017$test.coverage" NAME="test Coverage Results" MODIFIED="1604907546275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm017$_191_1.coverage" NAME="[191]位1的个数 Coverage Results" MODIFIED="1607394714337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/var/folders/z2/hqvr08_s3f9fz0j1rbdf1drh0000gn/T/leetcode/editor/cn" />
+    <SUITE FILE_PATH="coverage/algorithm017$test.coverage" NAME="test Coverage Results" MODIFIED="1607412135475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
